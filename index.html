@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bull and Cows</title>
+</head>
+<body>
+    <div class="container">
+        <div class="description">
+            <h1>Bulls and Cows</h1>
+            <p>Bulls = correct code, correct position.</p>
+            <p>Cows = correct code, wrong position.</p>
+        </div>
+        <div class="game-container">
+            <input type="number" id="guess-input">
+            <button id="guess-button">Try to Guess</button>
+            <button id="reset-button" class="hidden">Start new game</button>
+            <div id="results">
+                <div id="game-condition"></div>
+                <span id="bulls">Bulls</span>
+                <span id="cows">Cows</span>
+            </div>
+            <div id="printer"></div>
+        </div>
+    </div>
+</body>
+</html>
